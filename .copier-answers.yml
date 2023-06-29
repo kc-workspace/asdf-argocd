@@ -1,12 +1,15 @@
 ---
 ## Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
-_commit: v1.3.3-25-g59117f7
-_src_path: .
-app_description: a declarative, GitOps continuous delivery tool for Kubernetes.
+_commit: v1.3.3-39-g36caa8f
+_src_path: /Users/kamontat/Desktop/Personal/asdf-plugin-template
+app_desc: a declarative, GitOps continuous delivery tool for Kubernetes.
 app_name: argocd
 app_repo: https://github.com/argoproj/argo-cd
-app_version_prefix: v
 app_website: https://argo-cd.readthedocs.io
+archive_enabled: false
+checksum_conf_algorithm: 256
+checksum_enabled: true
+checksum_url: https://github.com/argoproj/argo-cd/releases/download/v{version}/cli_checksums.txt
 custom_arch_enabled: true
 custom_arch_yaml:
     aarch64*: arm64
@@ -14,15 +17,22 @@ custom_arch_yaml:
     armv6*: arm
     armv7*: arm
     x86_64: amd64
+custom_bin_paths: bin
 custom_non_stable_version: (-src|-dev|-latest|-stm|[-\.]rc|-alpha|-beta|[-\.]pre|-next|snapshot|master)
 custom_os_enabled: false
-download_checksum_cmd: '256'
-download_checksum_enabled: true
-download_checksum_link: https://github.com/argoproj/argo-cd/releases/download/v{version}/cli_checksums.txt
-download_link: https://github.com/argoproj/argo-cd/releases/download/v{version}/argocd-{os}-{arch}
-download_type: single-file
+custom_require_commands: ''
+download_url: https://github.com/argoproj/argo-cd/releases/download/v{version}/argocd-{os}-{arch}
+gpg_enabled: false
+install_map_enabled: true
+install_map_method: copy
+install_map_yaml:
+    argocd: bin/argocd
+package_enabled: false
 plugin_author: Kamontat Chantrachirathumrong
 plugin_name: asdf-argocd
 plugin_org: kc-workspace
-plugin_repo: https://github.com/kc-workspace/asdf-argocd
-test_cmd_args: ''
+plugin_repo: https://github.com/kc-workspace/asdf-argocd.git
+source_enabled: false
+test_cmd_args: version --client --short
+version_file_enabled: false
+version_prefix: v

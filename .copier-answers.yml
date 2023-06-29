@@ -1,6 +1,6 @@
 ---
 ## Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
-_commit: v1.3.3-40-g88d0040
+_commit: v1.3.3-40-g7f3c327
 _src_path: /Users/kamontat/Desktop/Personal/asdf-plugin-template
 app_desc: a declarative, GitOps continuous delivery tool for Kubernetes.
 app_name: argocd

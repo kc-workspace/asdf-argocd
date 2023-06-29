@@ -91,7 +91,7 @@ contains several extra features for every user including all below.
   - **{date}** - for current date
   - **{time}** - for current time
   - **{level}** - for log level (always be 3 characters uppercase)
-  - **{namespace}** - for formatted namespace (always have same lenght)
+  - **{namespace}** - for formatted namespace (always have same length)
   - **{ns}** - for raw namespace (no formatting applied)
   - **{message}** - for log message
 
@@ -103,37 +103,7 @@ You can take a look at [README.plugin.md][app-readme]
 
 ## Contributors
 
-1. Only `bin/*` and `lib/utils.sh` are open for modify
-2. There several functions available on bin/* script [bin/README.md]
-3. The function defined on `lib/utils.sh` will be available everywhere
-4. New create `bin/*` script should use below template as starter
-
-```bash
-#!/usr/bin/env bash
-
-## <description>
-## https://asdf-vm.com/plugins/create.html
-
-## -----------------------
-## Customization functions
-
-kc_asdf_main() {
-  return 0
-}
-
-## -----------------------
-
-set -euo pipefail
-
-export KC_ASDF_PLUGIN_ENTRY_PATH=${BASH_SOURCE[0]}
-export KC_ASDF_PLUGIN_ENTRY_NAME
-KC_ASDF_PLUGIN_ENTRY_NAME="$(basename "$KC_ASDF_PLUGIN_ENTRY_PATH")"
-export KC_ASDF_PLUGIN_PATH
-KC_ASDF_PLUGIN_PATH=$(dirname "$(dirname "$KC_ASDF_PLUGIN_ENTRY_PATH")")
-
-# shellcheck source-path=SCRIPTDIR/../lib/commands.sh
-source "$KC_ASDF_PLUGIN_PATH/lib/commands.sh" "$@"
-```
+Read [CONTRIBUTING.md] file for more detail.
 
 <!-- LINKS SECTION -->
 

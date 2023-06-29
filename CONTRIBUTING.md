@@ -4,7 +4,7 @@ Thank you for investing your time in contributing to our project!
 
 ## Golden rules for contributing
 
-> https://asdf-vm.com/plugins/create.html#golden-rules-for-plugin-scripts
+> [asdf-golden-rules][asdf-golden-rules]
 
 1. Only `bin/*` and `lib/utils.sh` are open for modify
 2. There several functions available on bin/* script [bin/README.md]
@@ -43,10 +43,10 @@ source "$KC_ASDF_PLUGIN_PATH/lib/commands.sh" "$@"
 
 ## Scripts
 
-> https://asdf-vm.com/plugins/create.html#scripts-overview
+> [asdf overview][asdf-overview]
 
 There are several callbacks allow to customize script
-without touching builtin utilities.
+without touching built-in utilities.
 
 ## Generic scripts callback
 
@@ -222,4 +222,8 @@ _kc_asdf_custom_help() {
 }
 ```
 
+<!-- LINKS SECTION -->
+
+[asdf-golden-rules]: https://asdf-vm.com/plugins/create.html#golden-rules-for-plugin-scripts
+[asdf-overview]: https://asdf-vm.com/plugins/create.html#scripts-overview
 [banned-commands]: https://github.com/asdf-vm/asdf/blob/master/test/banned_commands.bats

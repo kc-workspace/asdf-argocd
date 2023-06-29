@@ -85,7 +85,7 @@ contains several extra features for every user including all below.
 - `$ASDF_NO_CHECK=<any-string>` to disable pre-check features (e.g. check-cmd)
 - `$ASDF_OVERRIDE_OS=<os>` to override os name
 - `$ASDF_OVERRIDE_ARCH=<arch>` to override arch name
-- `$GITHUB_TOKEN=<token>` to pass github token on http request
+- `$GITHUB_TOKEN=<token>` to pass GitHub token on http request
 - `$ASDF_LOG_FORMAT=<format>` to custom log format, there are several variables
   - **{datetime}** - for current datetime
   - **{date}** - for current date

@@ -23,7 +23,7 @@
 
 ### Miscellaneous
 
-* improve log message for readiability ([aacdb21](https://github.com/kc-workspace/asdf-argocd/commit/aacdb211342565f3549dfe5f8f06ea5d1be51d1c))
+* improve log message for readability ([aacdb21](https://github.com/kc-workspace/asdf-argocd/commit/aacdb211342565f3549dfe5f8f06ea5d1be51d1c))
 * update terminology ([801985f](https://github.com/kc-workspace/asdf-argocd/commit/801985f8a0d7878449ff69db022779a0d52b6882))
 * use asdf instead of ASDF ([e04a1ee](https://github.com/kc-workspace/asdf-argocd/commit/e04a1ee8dea5a07f57126ece5b3371212e163bf1))
 

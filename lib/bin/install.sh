@@ -37,7 +37,7 @@ __asdf_bin() {
     [ -n "${KC_ASDF_ARCH:-}" ] && vars+=("arch=${KC_ASDF_ARCH:-}")
     if command -v kc_asdf_version_parser >/dev/null; then
       local major minor patch
-      read -r major minor patch <<< "$(kc_asdf_version_parser "$version")"
+      read -r major minor patch <<<"$(kc_asdf_version_parser "$version")"
       vars+=("major_version=$major" "minor_version=$minor" "patch_version=$patch")
     fi
     kc_asdf_debug "$ns" "template variables are '%s'" "${vars[*]}"
@@ -72,7 +72,7 @@ __asdf_bin() {
   kc_asdf_debug "$ns" "list '%s': [%s]" \
     "$outdir" "$(ls "$outdir" | xargs echo)"
   for bin in "${bins[@]}"; do
-      outpath="$outdir/$bin"
+    outpath="$outdir/$bin"
     if kc_asdf_present_dir "$outpath"; then
       # shellcheck disable=SC2011
       kc_asdf_debug "$ns" "list '%s': [%s]" \

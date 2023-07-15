@@ -1,7 +1,7 @@
 ---
 ## Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
-_commit: v2.0.0
-_src_path: gh:kc-workspace/asdf-plugin-template.git
+_commit: v2.0.0-4-ge275331
+_src_path: /Users/kamontat/Desktop/Personal/asdf-plugin-template
 addon_yaml:
     archive: false
     checksum: true

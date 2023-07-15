@@ -80,7 +80,6 @@ __asdf_bin() {  # shellcheck disable=SC2034
     kc_asdf_step "download" "$url" \
       kc_asdf_fetch_file "$url" "$tmppath" ||
       return 1
-
     if kc_asdf_enabled_feature checksum; then
       local checksum_url
       checksum_url="https://github.com/argoproj/argo-cd/releases/download/v{version}/cli_checksums.txt"
@@ -89,8 +88,6 @@ __asdf_bin() {  # shellcheck disable=SC2034
         kc_asdf_checksum "$tmppath" "$checksum_url" ||
         return 1
     fi
-
-    
 
     if [[ "$mode" == "file" ]]; then
       outfile="$KC_ASDF_APP_NAME"

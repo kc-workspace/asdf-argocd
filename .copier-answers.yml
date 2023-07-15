@@ -1,10 +1,26 @@
 ---
 ## Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
-_commit: v1.3.3-50-gd56c40f
-_src_path: /Users/kamontat/Desktop/Personal/asdf-plugin-template
+_commit: v2.0.0
+_src_path: gh:kc-workspace/asdf-plugin-template.git
+addon_yaml:
+    archive: false
+    checksum: true
+    download: true
+    fetch: true
+    git: false
+    github: true
+    gpg: false
+    help: true
+    install: true
+    package: false
+    python: false
+    system: true
+    tags: true
+    version: true
 app_desc: a declarative, GitOps continuous delivery tool for Kubernetes.
 app_name: argocd
 app_repo: https://github.com/argoproj/argo-cd
+app_type: standalone
 app_website: https://argo-cd.readthedocs.io
 archive_enabled: false
 checksum_conf_algorithm: 256
@@ -24,7 +40,7 @@ custom_require_commands: ''
 download_url: https://github.com/argoproj/argo-cd/releases/download/v{version}/argocd-{os}-{arch}
 gpg_enabled: false
 install_map_enabled: true
-install_map_method: copy
+install_map_method: move
 install_map_yaml:
     argocd: bin/argocd
 package_enabled: false

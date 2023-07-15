@@ -21,7 +21,6 @@ __asdf_bin() {
     kc_asdf_debug "$ns" "developer defined custom version function" &&
     version="$(_kc_asdf_custom_version "$version")"
 
-
   local outdir="${ASDF_DOWNLOAD_PATH:?}" outfile outpath
   local tmpdir tmpfile tmppath
   tmpdir="$(kc_asdf_temp_dir)"
@@ -96,7 +95,6 @@ __asdf_bin() {
       kc_asdf_step "transfer" "$outpath" \
         kc_asdf_transfer "copy" "$tmppath" "$outpath" ||
         return 1
-      
     else
       kc_asdf_error "$ns" "invalid download mode name '%s'" "$mode"
       return 1

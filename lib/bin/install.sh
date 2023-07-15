@@ -50,7 +50,6 @@ __asdf_bin() {
       kc_asdf_step "$transfer_method" "$key -> $value" \
         kc_asdf_transfer "$transfer_method" "$outdir/$key" "$outdir/$value"
     done
-
   fi
   ## Chmod all bin files
   local bin bins=(bin)

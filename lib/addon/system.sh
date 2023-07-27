@@ -59,28 +59,13 @@ kc_asdf_get_arch() {
     arch="arm64"
     ;;
   armv5*)
-    arch="armv5"
+    arch="arm"
     ;;
   armv6*)
-    arch="armv6"
+    arch="arm"
     ;;
   armv7*)
-    arch="armv7"
-    ;;
-  i386)
-    arch="386"
-    ;;
-  i686)
-    arch="386"
-    ;;
-  powerpc64le)
-    arch="ppc64le"
-    ;;
-  ppc64le)
-    arch="ppc64le"
-    ;;
-  x86)
-    arch="386"
+    arch="arm"
     ;;
   x86_64)
     arch="amd64"

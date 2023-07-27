@@ -44,14 +44,9 @@ source_enabled: false
 sys_arch_enabled: true
 sys_arch_yaml:
     aarch64*: arm64
-    armv5*: armv5
-    armv6*: armv6
-    armv7*: armv7
-    i386: '386'
-    i686: '386'
-    powerpc64le: ppc64le
-    ppc64le: ppc64le
-    x86: '386'
+    armv5*: arm
+    armv6*: arm
+    armv7*: arm
     x86_64: amd64
 sys_ext_enabled: false
 sys_os_enabled: false

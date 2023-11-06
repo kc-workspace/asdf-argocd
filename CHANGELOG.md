@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.0.2](https://github.com/kc-workspace/asdf-argocd/compare/v1.0.1...v1.0.2) (2023-11-06)
+
+
+### Improvements
+
+* update plugin from template [autocommit] ([ca5240f](https://github.com/kc-workspace/asdf-argocd/commit/ca5240f098fbdd374e62a3c2923f3b4ac02cedd8))
+* update plugin from template [autocommit] ([9315f9f](https://github.com/kc-workspace/asdf-argocd/commit/9315f9fdbe9313c8460ff9efbfffd5a61e75a2ff))
+* update plugin from template [autocommit] ([5cd141d](https://github.com/kc-workspace/asdf-argocd/commit/5cd141ddee1952adac8be22d57cd57680c6e3903))
+* update plugin from template [autocommit] ([33f4e96](https://github.com/kc-workspace/asdf-argocd/commit/33f4e96d57702e497f3683ada30975c5a372261b))
+* update plugin from template [autocommit] ([055ddc2](https://github.com/kc-workspace/asdf-argocd/commit/055ddc24f6b798c153235259fbadb0e75b45ddc5))
+* update plugin from template [autocommit] ([f360372](https://github.com/kc-workspace/asdf-argocd/commit/f36037203dbc71cc4510dbb7bf051c5cee8108fa))
+* update plugin from template [autocommit] ([37ebdf4](https://github.com/kc-workspace/asdf-argocd/commit/37ebdf4cbe492ef0328b409d4c9874a1c5865bc3))
+* update plugin from template [autocommit] ([a70d7c0](https://github.com/kc-workspace/asdf-argocd/commit/a70d7c035d05eafa3d693bc352d7f4bfc007ff99))
+
+
+### Bugfixes
+
+* **config:** update arch mapper ([b11b997](https://github.com/kc-workspace/asdf-argocd/commit/b11b997ac43984d896d9cad3af722c0b30a8ace9))
+
 ## [1.0.1](https://github.com/kc-workspace/asdf-argocd/compare/v1.0.0...v1.0.1) (2023-07-16)
 
 

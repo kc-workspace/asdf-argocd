@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/kc-workspace/asdf-argocd/compare/v1.0.2...v1.0.3) (2023-12-03)
+
+
+### Improvements
+
+* update plugin from template [autocommit] ([15e0ae6](https://github.com/kc-workspace/asdf-argocd/commit/15e0ae6c61ca7efd1bf5d2610cf7ecca00cc0150))
+
 ## [1.0.2](https://github.com/kc-workspace/asdf-argocd/compare/v1.0.1...v1.0.2) (2023-11-06)
 
 
